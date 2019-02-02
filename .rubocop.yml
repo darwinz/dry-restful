@@ -1,0 +1,47 @@
+AllCops:
+  Exclude:
+    - 'apps/main/lib/dry_restful_api/main/operations/cors/set_cors_headers.rb'
+
+Layout/AlignArray:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 60
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'lib/tasks/*'
+    - 'system/boot/*'
+
+Metrics/LineLength:
+  Max: 180
+
+Metrics/ClassLength:
+  Max: 300
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/MethodLength:
+  Max: 40
+
+Metrics/ParameterLists:
+  Max: 6
+
+Metrics/PerceivedComplexity:
+  Max: 15
+
+Style/Documentation:
+  Exclude:
+    - '**/*'
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/StringLiterals:
+  Exclude:
+    - 'spec/**/*'
