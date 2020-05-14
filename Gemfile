@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 ruby '2.4.1'
 
+source 'https://rubygems.org'
+
 gem 'dry-monads', '1.0.0'
 gem 'dry-struct', '0.5.0'
 gem 'dry-system', '0.10.0'
@@ -13,7 +15,7 @@ gem 'dry-web-roda', '0.11.0'
 gem 'rack', '1.6.11'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rack_csrf', '2.6.0'
-gem 'rake', '11.2.2'
+gem 'rake', '12.3.3'
 
 group :development, :test do
   gem 'factory_bot', '4.10'
